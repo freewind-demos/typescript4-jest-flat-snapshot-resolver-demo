@@ -1,7 +1,8 @@
-TypeScript Jest Demo
+TypeScript Jest Flat Snapshot Resolver Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+让生成的snapshot在代码文件旁边，而不要放在`__snapshots__`下面，不利于阅读
+
 
 ```
 npm install
